@@ -1,42 +1,14 @@
-# FPS Controls for Three.js
-A 3D platformer game made with Three.js. The aim of the game is to the get to the top of the crates, at which point they will back to their rightful
-place on the moons surface in an orderly fashion.
+# Final  Project ART 109
 
-[Here is a live demo](https://jamesmilneruk.github.io/threejs-fps-controls)
 
-# Features
-The controls and demo are based on the [PointerLockControls](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/PointerLockControls.js) given in the
-three.js examples page/repo. The controls add additional benefits:
+11/28 - Create Skeleton website
 
-* Double Jump (Optional)
-* Crouching
-* Walking
-* Elementary collision detection with specified objects
+11/29 - Prepare 3D models for Export and import with GLTFLoader
 
-# Future Plans
+12/1 - Organize Placement of 3D models
 
-* Improved collision detection
-* Refactoring to improve code readability and control robustness
-* Strafe jumping (long term)
+12/4 - Begin modeling environment
 
-# How To
+12/10 - Work on First Person Controller
 
-Import three.js, then import FPSControls.js. You can then do something like this:
-
-```javascript
-camera = new THREE.PerspectiveCamera( 80, window.innerWidth / window.innerHeight, 1, 9000 );
-controls = new THREE.PointerLockControls( camera, 100, 30, true, objects );
-scene.add( controls.getPlayer() );
-```
-Then in your animation loop you just need to call the update controls method:
-
-```javascript
-controls.updateControls();
-```
-
-# Contributing
-
-I would love contributions! Both in the form of issues, feature requests, usage examples and of course pull requests.
-
-# License
-MIT
+12/11 - Polish and Complete
