@@ -54,6 +54,7 @@ var Harvest = (function () {
 		scene.add( floorMesh  );
 
 		// Boxes
+    /*
 		var boxGeometry = new THREE.BoxGeometry( 20, 20, 20 );
 		var boxTexture1 = new THREE.ImageUtils.loadTexture("img/block1.jpg");
 		var boxTexture2 = new THREE.ImageUtils.loadTexture("img/block2.jpg");
@@ -78,7 +79,7 @@ var Harvest = (function () {
 			objects.push( boxmesh );
 			scene.add( boxmesh );
 		}
-
+*/
 
 		camera = new THREE.PerspectiveCamera( 80, window.innerWidth / window.innerHeight, 1, 9000 );
 		controls = new THREE.PointerLockControls( camera, 100, 30, true, objects );
